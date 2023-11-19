@@ -4,11 +4,11 @@ public class DaysOfTheWeek{
     public static void main(String[] args){
        Scanner input = new Scanner(System.in);
     
-  System.out.print("Enter Year"); 
+  System.out.print("Enter Year:  "); 
    int year = input.nextInt();
-  System.out.print("Enter Month in number"); 
+  System.out.print("Enter Month in number: "); 
    int month = input.nextInt();
-  System.out.print("Enter the day of the Month(1-31)"); 
+  System.out.print("Enter the day of the Month(1-31): "); 
    int day = input.nextInt();
 
    int month1 = 26*(month + 1)/10;
